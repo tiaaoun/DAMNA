@@ -1,4 +1,4 @@
-# DAMNA – Blood Donation Android Application
+# DAMNA
 
 DAMNA is an Android mobile application designed to simplify the blood donation process by connecting donors and recipients through a centralized and user-friendly platform.
 
