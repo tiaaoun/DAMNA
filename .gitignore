@@ -1,0 +1,15 @@
+.idea/
+.gradle/
+local.properties
+
+/build
+/app/build
+
+.DS_Store
+*.log
+
+*.jks
+*.keystore
+
+.env
+.env.*

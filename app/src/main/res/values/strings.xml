@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DAMNA</string>
+
+    <string name="eligibility_rules">
+    • Must be 18 to 65 years old\n
+    • Must weigh at least 50kg\n
+    • No donation if you’ve had a cold or infection recently\n
+    • No donation if you took antibiotics in the past 7 days\n
+    • Wait 3 months between blood donations\n
+    • Eat and hydrate before donating\n
+    • Bring ID when donating
+</string>
+
+</resources>

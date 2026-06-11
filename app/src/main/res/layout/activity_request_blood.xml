@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_revert"
+        android:contentDescription="Back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+    <EditText
+        android:id="@+id/full_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"/>
+
+    <EditText
+        android:id="@+id/hospital_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital Name"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"/>
+
+    <EditText
+        android:id="@+id/blood_type_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Type (e.g., A+)"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"/>
+
+    <EditText
+        android:id="@+id/phone_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:inputType="phone"
+        android:background="@android:drawable/edit_text"/>
+
+    <Button
+        android:id="@+id/request_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Blood"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/primary_red"/>
+</LinearLayout>
+</LinearLayout>
